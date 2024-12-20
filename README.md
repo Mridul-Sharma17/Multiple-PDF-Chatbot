@@ -23,7 +23,19 @@ A powerful chatbot application that allows users to interact with multiple PDF d
 git clone <repository-url>
 cd Multiple-PDF-Chatbot
 ```
+## Create Virtual Environment
 
+### Windows
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### macOS/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 2. Install dependencies
 ```bash
 pip install -r requirements.txt
